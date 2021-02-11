@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--  BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- user own css style-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+   <style>
+       .fa-heart:hover{
+        color:red;
+       }
+   </style>
+
+   
+    <title>Handson_bootstrap_003 </title>
+</head>
+
+<body>
+    
+    <h1 class="text-success">Navigation Bar Items for hTrack</h1>
+    <nav class="navbar navbar-dark bg-dark navbar-expand-lg">
+        <div class="container">
+            <a href="#" class="navbar-brand text-warning">hTrack</a>
+
+            <div class="navbar-toggler" data-toggle="collapse" data-target="#nav_items">
+                <span class="navbar-toggler-icon"></span>
+            </div>     
+
+            <div class="collapse navbar-collapse" id="nav_items">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Clients</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="row">
+            <div class="col-sm-12 col-md-8 bg-success">
+                 <h1>Benefits</h1>
+                 <ul>
+                   <li>Set Goals</li>
+                   <li>Receive customized notifications</li>
+                   <li>Get tips from experts and coaches</li>
+                </ul>
+            </div>
+            <div class="col-sm-12 col-md-4 bg-danger">
+                <h1>Login</h1>
+            </div>
+
+    </div>  
+   
+<!-- 
+    <div class="container mt-5 float-left">
+        <h4 class="text-primary">Design rating display for a product</h4>
+            <span class="badge badge-danger">4.4<i class="fa fa-star"></i></span>
+            <span class="badge badge-warning">4.5<i class="fa fa-star"></i></span>
+            <span class="badge badge-success">4.7<i class="fa fa-star"></i></span>
+    </div>
+    Design display of Price for a product
+    <div class="container mt-5 float-left">
+        <h4 class="text-primary">display of Price for a product</h4>
+        <p>Rs.200.00 <s>  Rs.250</s>  20%<i class="fa fa-exclamation-circle"></i></p>
+    </div>
+ -->
+<div class="container mt-5">
+    <table class="table">
+        <thead class="text-dark">
+          <tr>
+            <th scope="col" class="text-dark">#</th>
+            <th scope="col">Product</th>
+            <th scope="col">rating</th>
+            <th scope="col">price</th>
+            <th scope="col">cart</th>
+            <th scope="col">favoirt</th>
+            
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>Rice</td>
+            <td><span class="badge badge-danger">4.4<i class="fa fa-star"></i></span></td>
+            <td><p>Rs.200.00 <s>  Rs.250</s>  20%<i class="fa fa-exclamation-circle"></i></p></td>
+            <td> <button class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to Cart</button></td>
+            <td><div id="hover"><i class="fa fa-heart"></i></div></td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>chicken</td>
+            <td><span class="badge badge-warning">4.4<i class="fa fa-star"></i></span></td>
+            <td><p>Rs.500.00 <s>  Rs.650</s>  <i class="fa fa-exclamation-circle"></i></p></td>
+            <td> <button class="btn btn-primary"><i class="fa fa-shopping-cart"></i> Add to Cart</button></td>
+            <td><div id="hover"><i class="fa fa-heart"></i></div></td>
+        </tr>
+         
+        </tbody>
+      </table>
+
+    </div>
+     <!--  Java Script Section -->
+
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>

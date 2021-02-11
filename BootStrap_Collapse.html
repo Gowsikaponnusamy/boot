@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <!--  BOOTSTRAP CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- user own css style-->
+    <link rel="stylesheet" href="css/style.css">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.19.1/css/mdb.min.css" rel="stylesheet">
+    <title>Collapse</title>
+</head>
+
+
+<body>
+    <nav>
+        <h1>BootStrap</h1>
+    </nav>
+<!-- Collapse with Button -->
+<div class="container mt-5">
+    <h1>Collapse with Button</h1>
+    <button class=" btn btn-primary" data-toggle="collapse"  data-target="#collapseexample"> UI DEvelopment</button>
+
+    <div class="collapse animated flipInY" id="collapseexample">
+        <div class="card w-50">
+            <div class="card-header bg-dark text-success">
+                <h3>UI Development </h3>
+            </div>
+            <div class="card-body bg-warning"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, similique. Consequuntur inventore eos dolore labore reprehenderit sequi maxime veritatis. Modi.</p>
+            </div>
+            <div class="card-footer bg-dark text-success" >
+                <p class="lead">@Cognizant</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Collapse with href-->
+<div class="container mt-5">
+    <h1>Collapse with href</h1>
+    <a class="btn btn-primary" data-toggle="collapse" href="#collapseexample1">UI Development</a>
+    <div class="collapse animated flipInY" id="collapseexample1">
+        <div class="card w-50">
+            <div class="card-header bg-dark text-success">
+                <h3>UI Development </h3>
+            </div>
+            <div class="card-body bg-warning"> 
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate, similique. Consequuntur inventore eos dolore labore reprehenderit sequi maxime veritatis. Modi.</p>
+            </div>
+            <div class="card-footer bg-dark text-success" >
+                <p class="lead">@Cognizant</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+     <!--  Java Script Section -->
+
+
+    <script src="js/jquery-3.5.1.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+
+</html>
